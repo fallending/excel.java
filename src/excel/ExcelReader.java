@@ -166,7 +166,7 @@ public class ExcelReader {
 	 * Main function
 	 * */
 	public static void main(String[] args) {
-		ExcelReader reader = new ExcelReader("/Users/fallen/Downloads/test.xlsx", "接口");
+		ExcelReader reader = new ExcelReader("testfiles/test.xlsx", "接口");
 		System.out.println(reader.getCellData(1, 1));
 		System.out.println(reader.getCellData(1, "接口描述"));
 	}
